@@ -1,6 +1,7 @@
 module.exports = {
   env: {
     es6: true,
+    browser: true,
   },
   extends: 'airbnb',
   globals: {
@@ -17,5 +18,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'react/jsx-filename-extension': 'off',
+    'no-underscore-dangle': 'off',
+    'no-console': 'off',
   },
 };
